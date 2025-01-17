@@ -1,0 +1,42 @@
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+.DS_Store
+Thumbs.db
+
+# Node.js backend
+.env
+node_modules/
+dist/
+build/
+*.lock
+
+# Flutter project
+.dart_tool/
+.packages
+pubspec.lock
+build/
+ios/Flutter/
+ios/Pods/
+ios/Podfile.lock
+android/.gradle/
+android/app/build/
+android/local.properties
+web/.dart_tool/
+web/build/
+macos/Flutter/
+macos/Pods/
+macos/Podfile.lock
+
+# IDE configurations
+.idea/
+*.iml
+.vscode/
+xcuserdata/
+*.xcuserstate
+
+# Database backups
+*.bson
+*.json
+*.csv
